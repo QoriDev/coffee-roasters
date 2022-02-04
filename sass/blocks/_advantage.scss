@@ -1,0 +1,127 @@
+.advantage__container{
+    text-align: start;
+    margin: 0 auto;
+    width: 1110px;
+    position: relative;
+}
+
+.advantage__title{
+    margin-top: 351px;
+    font-family: $fraunces-family;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-bottom: 288px;
+}
+
+
+.advantage-one{
+    &::before{
+        width: 90px;
+        height: 72px;
+        content: '01';
+        position: absolute;
+        font-family: $fraunces-family;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FDD6BA;
+        bottom: 100%;
+        border: 2px;
+        border-color: #FDD6BA;
+        background-color: #fff;
+    }
+}
+.advantage-two{
+    &::before{
+        width: 90px;
+        height: 72px;
+        content: '02';
+        position: absolute;
+        font-family: $fraunces-family;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FDD6BA;
+        bottom: 100%;
+        border: 2px;
+        border-color: #FDD6BA;
+        background-color: #fff;
+    }
+}
+.advantage-three{
+    &::before{
+        width: 90px;
+        height: 72px;
+        content: '03';
+        position: absolute;
+        font-family: $fraunces-family;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FDD6BA;
+        bottom: 100%;
+        border: 2px;
+        border-color: #FDD6BA;
+        background-color: #fff;
+    }
+}
+
+.advantage__list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    margin-bottom: 64px;
+
+    &::after{
+        content: '';
+        position: absolute;
+        width: 760px;
+        border: 2px solid #FDD6BA;
+        top: 18%;
+        z-index: -1;
+        background-color: #FDD6BA;
+    }
+}
+
+.advantage__item{
+    margin-right: 95px;
+    margin-bottom: 64px;
+    position: relative;
+
+    &::before{
+        content: '';
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        border: 2px solid #0E8784;
+        border-radius: 50% ;
+        bottom: 440px;
+        background-color: #fff;
+    }
+} 
+
+.advantage__caption {
+    margin: 0;
+    padding: 0;
+    width: 255px;
+    font-family: $fraunces-family;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;    
+    margin-bottom: 42px;
+    margin-top: 38px;
+}
+
+.advantage__description {
+    margin: 0;
+    padding: 0;
+    width: 285px;
+    font-family: $barlow-family;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    }

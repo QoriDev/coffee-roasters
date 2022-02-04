@@ -1,0 +1,28 @@
+.coffee-maker__contaiener{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.coffee-maker__commiment {
+    margin-left: 125px;
+}
+.coffee-maker__title {
+    font-family: $fraunces-family;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+}
+.coffee-maker__description {
+    margin: 0;
+    padding: 0;
+    width: 540px;
+    font-family: $barlow-family;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}

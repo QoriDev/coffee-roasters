@@ -1,0 +1,31 @@
+.hero {
+    margin: 0;
+    padding: 0;
+    margin-top: 45px;
+    margin-bottom: 168px;
+    background-image: url("/img/about-us.jpg");
+    background-position: center;
+}
+.hero__title {
+    margin: 0;
+    padding: 0;
+    margin-left: 85px;
+    padding-top: 137px;
+    font-family: $fraunces-family;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+.hero_description {
+    width: 445px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 137px;
+    margin-top: 24px;
+    margin-left: 85px;
+    font-family: $barlow-family;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}

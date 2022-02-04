@@ -1,0 +1,46 @@
+.footer {
+    background-color: $primary-bg-color;   
+    margin-top: 200px;
+}
+
+.footer__container{
+    display: flex;
+    align-items: center;
+    padding: 48px 0;
+}
+.footer__logo {
+    display: block;
+    margin-right: 103px;
+    color: #fff;
+}
+.footer__list {
+    display: flex;
+    @include reset-list;
+}
+.footer__item {
+    font-family: $barlow-family;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+
+.footer__item-link{
+    margin-right: 33px;
+    &:last-child{
+        margin-right: 0;
+    }
+    cursor: pointer;
+}
+.footer__list-icons{
+    margin-left: 370px;
+}
+
+.footer__icon {
+    margin: 0;
+    padding: 0;
+    margin-right: 24px;
+    cursor: pointer;
+}   

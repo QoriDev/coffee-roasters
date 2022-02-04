@@ -1,0 +1,94 @@
+@import 'generals';
+@import 'fonts';
+@import 'mixins';
+@import 'variables';
+@import 'blocks/blocks';
+
+
+
+    
+// .cards__container{
+//     width: 1110px;
+//     display: flex;
+//     flex-direction: column;
+// }
+
+// .cards__container:first-child{
+//     flex-direction: row;
+// }
+
+// .pages{
+//     margin-right: 170px;
+// }
+// .pages__link{
+//     display: block;
+//     text-decoration: none;
+//     margin-bottom: 49px;
+//     font-size: 24px;
+//     color: #333D4B;
+// }
+
+
+// .pages__links:last-child{
+//     margin-bottom: 0;
+// }
+
+// .card__drink-button{
+//     border: none;
+//     background-color: #fff;
+//     font-size: 40px;
+// }
+
+// .card__drink-checkbox{
+//     width: 228px;
+//     height: 250px;
+//     margin-right: 23px;
+//     background-color: #F4F1EB;
+// }
+
+// .card__drink-title{
+//     font-size: 24px;
+// }
+
+// .card__drink-description{
+//     font-size: 16px;
+// }
+
+// .card__drink-checkbox--grey{
+//     background-color: #F4F1EB;
+// }
+
+// .card__drink-checkbox--pink:hover {
+//     background-color: #FDD6BA;
+// }
+
+// .card__drink-checkbox:last-child{
+//     margin-right: 0;
+// }
+
+// .card__drink-checkbox--span{
+//     width: 228px;
+//     height: 250px;
+//     display: inline-block;
+// }
+// .card__drink-checkbox--span:checked + { 
+//     background-color: #0E8784;
+// }
+
+// .card__drink-checkboxs{
+//     display: flex;
+//     margin-top: 56px;
+// }
+
+// .card__drink-input:checked + .card__drink-checkbox--span{
+//     background-color: #0E8784;
+// }
+
+// .type__container{
+//    width: 1110px; 
+// }
+
+// .type__drink{
+//     margin-top: 88px;
+//     margin-left: 340px;
+// }

@@ -1,0 +1,33 @@
+.intro{
+    padding: 0;;
+    background: url("../img/Bitmap.jpg") no-repeat center center ;
+}
+
+.intro__content{
+    padding: 117px 0;
+    margin-left: 86px;     
+}
+
+.intro__slogan{
+    margin: 0;
+    width: 493px;
+    font-family: $fraunces-family;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: rgba(254, 252, 247, 1);
+}
+
+.intro__description{
+    margin: 0;
+    width: 445px;
+    margin: 32px 0 71px 0;
+    font-family: $barlow-family;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(254, 252, 247, 1);
+    opacity: 0.8;
+}

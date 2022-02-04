@@ -1,0 +1,11 @@
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.header__logo{
+    cursor: pointer;   
+    display: block;
+    height: auto; 
+}

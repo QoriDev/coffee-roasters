@@ -1,0 +1,41 @@
+.quality {
+    margin: 0;
+    padding: 0;
+    margin-top: 256px;
+    background-color: $primary-bg-color;
+    position: relative;
+    border-radius: 10px;
+}
+
+.quality__pic{
+    position: absolute;
+    right: 84px;
+    bottom: 100px;
+    border-radius: 10px;
+}
+
+.quality__title {
+    margin: 0;
+    padding: 0;
+    margin-left: 85px;
+    margin-bottom: 32px;
+    padding-top: 90px;
+    font-family: $fraunces-family;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+.quality__description {
+    margin: 0;
+    padding: 0;
+    margin-left: 85px;
+    padding-bottom: 174px;
+    width: 540px;
+    font-family: $barlow-family;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}

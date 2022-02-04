@@ -1,0 +1,20 @@
+.meta__list{
+    display: flex;
+    @include reset-list;
+}
+
+.meta__item{
+    margin-right: 33px;
+    &:last-child{
+        margin-right: 0;
+    }
+}
+
+.meta__link{
+    text-decoration: none;
+    font-family: $barlow-family;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #83888F;
+}
